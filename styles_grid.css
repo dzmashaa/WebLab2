@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:#3f007a;
+}
+
+header{
+    background-image: linear-gradient(rgba(223, 204, 251, 0.2), rgba(190, 173, 250, 0.896)), url("https://e0.pxfuel.com/wallpapers/588/999/desktop-wallpaper-miyazaki-studio-ghibli-background-anime-scenery-howls-moving-castle-studio-ghibli-landscape.jpg");
+    background-size: cover;
+}
+
+
+h1{
+    background-color: #FFF3DA;
+    color:#50019a;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+/*     max-height: 8rem; */
+    word-break: break-word;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 80% 1fr ;
+}
+h2{
+    padding: 6px;
+}
+h3{
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+h4{
+    padding: 6px;
+}
+
+footer{
+    clear: both;
+    background-position: 0% 100%;
+    background-image: linear-gradient(rgba(223, 204, 251, 0.2), rgba(190, 173, 250, 0.896)), url("https://e0.pxfuel.com/wallpapers/588/999/desktop-wallpaper-miyazaki-studio-ghibli-background-anime-scenery-howls-moving-castle-studio-ghibli-landscape.jpg");
+    background-size: cover;
+}
+footer h1{
+    text-align: end;
+}
+
+.container{
+    padding: 2rem;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    gap: 40% ;
+    min-height: 210px;
+    align-items: center; 
+/*     min-height: 25%; */
+}
+
+.container p{
+    margin:  0 20px;
+    color: #50019a;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+#part2{
+    background-color: #DFCCFB;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+#part2 img{
+    /* position: relative; */
+    margin: 0;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    max-height: 300px;
+}
+
+#part3{
+    background-color: #a790fb;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#part4{
+    background-color: #DFCCFB;
+    grid-row: 1/ span 3;
+}
+
+#part5{
+    width:100%;
+    background-color: #D0BFFF;
+}
+#part6{
+    text-align: center;
+    background-color: #a790fb;
+    grid-column: 1/3;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    margin: 15px 0;
+}
+#part4 li{
+    margin-top: 35px;
+}
+#part4 li a{
+    text-decoration: none;
+    color: rgb(255, 253, 140);
+    background-color: #9e85f8;
+    font-size: 20px;
+    border-radius: 6px;
+    word-wrap: break-word;
+    padding: 8px;
+}
